@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Professional Summary & Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #7fc288;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 25px auto;
+            background: #b47aa5;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(194, 126, 126, 0.08);
+        }
+        .summary {
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #c4c0c0;
+        }
+        .summary h2 {
+            margin-top: 60;
+            color: #83c2db;
+        }
+        .cards {
+            display: flexbox;
+            flex-wrap: wrap-reverse;
+            gap: 50px;
+            background-color: aqua;
+        }
+        .card {
+            background: #71a72f;
+            border-radius: 6px;
+            box-shadow: 0 1px 10px rgba(2, 29, 51, 0.06);
+            padding: 40px;
+            flex: 1 1 130px;
+            min-width: 130px;
+            max-width: 80%;
+            display: flexbox;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card h3 {
+            margin-top: 10;
+            color: #b8376d;
+        }
+        .card p {
+            margin-bottom: 0;
+            color: #795e5e;
+        }
+        @media (max-width: 400px) {
+            .cards {
+                flex-direction: column-reverse;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="summary">
+            <h2>Professional Summary</h2>
+            <p>
+                Experienced Full Stack Developer with a strong background in designing, developing, and deploying scalable web applications. Skilled in modern frontend and backend technologies, with a passion for delivering high-quality solutions and collaborating in agile teams.
+            </p>
+        </div>
+        <div>
+            <h2>Projects</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Project Management Dashboard</h3>
+                    <p>
+                        Developed a responsive dashboard for tracking project progress, integrating real-time updates and analytics using React and Node.js.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>E-commerce media</h3>
+                    <p>
+                        Built a scalable e-commerce site with secure payment integration, product catalog, and user authentication using Angular and Express.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        Designed and deployed a personal portfolio website showcasing skills, experience.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Portfolio Wsite</h3>
+                    <p>
+                        Designed and deployed a personal portfolio website showcasing skills
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
