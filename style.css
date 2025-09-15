@@ -1,36 +1,57 @@
-body{
+bbody {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    background-color: #f4f4f4;
-}
-h1{
-    color: #333;
+    background-color: #e9f0f7;
 }
 
-section{
-    background: rgb(223, 12, 170);
+h1 {
+    color: #ffffff; 
+}
+
+section {
+    background: #1dc2f5; 
     padding: 20px;
     margin: 20px auto;
-    border-radius: 10px;
+    border-radius: 12px;
     max-width: 400px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-input,button{
-    padding: 10px;
-    margin: 5px;
-    font-size: 16px;
-}
-button{
-    background-color: #179fa8;
-    color: white;
-    border-radius: 5px;
-}
-button:hover{
-    background-color: #000000;
-}
-#weather{
-    margin-top: 20px;
-    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #c6fc06; 
 }
 
+input, button {
+    padding: 12px 15px;
+    margin: 8px 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+input {
+    width: 70%;
+    max-width: 250px;
+    border: 2px solid #20ff3e; /* Darker blue border */
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #1abc9c; /* Bright teal on focus */
+}
+
+button {
+    background-color: #000000; /* Bright teal */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #16a085; /* Darker teal */
+}
+
+#weather {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #a0e205;
+}
