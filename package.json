@@ -1,0 +1,23 @@
+{
+  "name": "new-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sathya-Nanda/Full-Stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sathya-Nanda/Full-Stack/issues"
+  },
+  "homepage": "https://github.com/Sathya-Nanda/Full-Stack#readme",
+  "devDependencies": {
+    "vite": "^7.1.5"
+  }
+}
